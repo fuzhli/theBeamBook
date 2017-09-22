@@ -92,7 +92,7 @@ on the process heap. The _boxes_ stored on the heap have a header and
 a body, unless it is a list.
 
 Currently ERTS uses a staged tag scheme, the history and reasoning
-behind the this scheme is explained in a technical report from the
+behind this scheme is explained in a technical report from the
 HiPE group. (See
 link:http://www.it.uu.se/research/publications/reports/2000-029/)
 The tagging scheme is implemented in +erl_term.h+.
